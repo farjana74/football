@@ -5,8 +5,8 @@ body {
 }
     
 header{
-background: #2D25A0;
-height: 695px;
+    background: #2D25A0;
+    height: 695px;
 }
 .header-details{
     display:flex;
@@ -24,7 +24,7 @@ height: 695px;
     margin-top: 153px;
     margin-bottom: 86px;
     margin-left: 102px;
-    transition: transform .2s;
+    transition: transform 2s;
 
 }
 .header-img img:hover{
@@ -135,23 +135,27 @@ transform:scale(1.1);
 }
 .banner-img img{
     width :567px;
-  height:427px;
+    height:427px;
+    transition: transform 2s;
+}
+.banner-img img:hover{
+        transform:scale(1.1) ;
 }
 .banner-title{
     width :469px;
-   height :120px;
-   Font-style: Bold;
- Font-size: 48px;
- color:#0A0826;
- margin-left:200px;
+     height :120px;
+    Font-style: Bold;
+    Font-size: 48px;
+    color:#0A0826;
+    margin-left:200px;
 }
 .banner-p{
     width :404px;
-  height :113px;
-  margin-top:8px;
-  margin-left:200px;
-  font-size:16px;
-  font-weight: 400px;
+     height :113px;
+     margin-top:8px;
+     margin-left:200px;
+     font-size:16px;
+     font-weight: 400px;
 
 }
 .button{
@@ -170,6 +174,7 @@ transform:scale(1.1);
    padding-bottom: 10px;
    padding-right: 10px;
 }
+
 /* footer------------------------------
 ----------------------------- */
 .footer{
@@ -215,3 +220,46 @@ h2{
    margin-bottom: 140px;
 
 }
+.container3{
+    margin-left:200px;
+    margin-bottom: 80px;
+    padding-right: 20px;
+    
+}
+.title{
+    text-align: center;
+    color:grey;
+    font-weight: 700px;
+    font-size:50px;
+}
+.video-section{
+    display: flex;
+    padding:5px;
+    padding-right:15px ;
+}
+.video{
+    padding:10px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.1));
+
+}
+/* media queries-------------- */
+/* mobile devices */
+/* @media screen and (max-width:688px) { */
+    /* .header-details{ */
+        /* background-color: white; */
+        /* display:flex; */
+        /* flex-direction: colums; */
+       
+        /* align-items: center; */
+       
+    /* } */
+  /* .header-img img{ */
+     
+
+  /* } */
+
+    /* } */
+    
+    
+
